@@ -1,0 +1,135 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  overflow: clear;
+}
+
+div, ul { display: inline-block; }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-transform: uppercase;
+}
+
+li:hover {
+  background-color: red;
+}
+
+.p-1 {
+  background: #ff0000;
+black;rgba(20, 20, 20, .8);
+  float: left;
+  height: 100px;
+  margin: 2em -6em;
+	width: 400px;
+	-webkit-transform: skew(140deg);
+	   -moz-transform: skew(140deg);
+	     -o-transform: skew(140deg);
+  z-index: 15;
+}
+
+.p-2 {
+  background: #333;
+
+  height: 90px;
+  margin: 4em -6em;
+	-webkit-transform: skew(140deg);
+	   -moz-transform: skew(140deg);
+	     -o-transform: skew(140deg);
+  width: 1000px;
+  z-index: -10;
+}
+
+.p-3 {
+
+  background: linear-gradient(260deg,     #d9d9d9, #e6e6e6);
+
+  height: 90px;
+  margin: 0 44.5em;
+  position: absolute;
+	-webkit-transform: skew(180deg);
+	   -moz-transform: skew(180deg);
+	     -o-transform: skew(180deg);
+	width: 260px;
+  z-index: -10;
+}
+
+p-3:hover {
+  background: black;
+  height: 90px;
+  margin: 0 44.5em;
+  position: absolute;
+	-webkit-transform: skew(180deg);
+	   -moz-transform: skew(180deg);
+	     -o-transform: skew(180deg);
+	width: 260px;
+  z-index: 10;
+}
+
+.p-4 {
+	background: linear-gradient(260deg,     #bfbfbf, #cccccc);
+  border-top: 1px solid #999;
+  height: 89px;
+  margin: 0 26em;
+  position: absolute;
+  -webkit-transform: skew(180deg);
+	   -moz-transform: skew(180deg);
+	     -o-transform: skew(180deg);
+  width: 300px;
+  z-index: -10;
+}
+
+/*#919191;*/
+
+.p-5 {
+  background: linear-gradient(260deg,     #999999, #a6a6a6);
+  border-top: 1px solid #333;
+  height: 89px;
+  margin: 0 13em;
+  position: absolute;
+	-webkit-transform: skew(180deg);
+	   -moz-transform: skew(180deg);
+	     -o-transform: skew(180deg);
+  width: 210px;
+  z-index: -10;
+}
+
+.p-5:hover {
+  background: green;
+}
+
+
+#about a:hover {
+  color: green;
+}
+
+#about a {
+  color: #fff;
+  font-size: 2em;
+  margin: -3.5em 0 0 -21.7em;
+  position: absolute;
+  z-index: 25;
+}
+
+#projects a {
+  color: #666666;
+  font-size: 2em;
+  margin: -3.5em 0 0 -14.4em;
+  position: absolute;
+  z-index: 25;
+}
+
+#contact a {
+  color: black;
+  font-size: 2em;
+  margin: -3.5em 0 0 -5.4em;
+  position: absolute;
+  z-index: 25;
+}
+
+a {
+  text-decoration: none;
+}
